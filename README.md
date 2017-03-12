@@ -4,10 +4,11 @@ Public Images are shown to the user using flickr API.
 
 [angular-cli](https://github.com/angular/angular-cli) is used to build basic architecture of this application.
 
-#prequesite
+#prerequisite
 1) npm v0.4 and above.
 2) node v0.7 and above.
 
+#Commands to run the application
 1) Run Command.
     npm install.
 
