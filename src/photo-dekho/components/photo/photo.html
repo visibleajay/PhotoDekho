@@ -1,0 +1,7 @@
+<div class="photo inheritWidthHeight">
+    <md-card class="inheritWidthHeight">
+        <img class="inheritWidthHeight" [src]="displayPhoto.get('url')"/>
+        <md-icon [ngClass]="displayPhoto.get('favourite')?'md-enabled':'md-disabled'"
+                 (click)="favouriteClick.emit(displayPhoto.get('id'))">favorite</md-icon>
+    </md-card>
+</div>

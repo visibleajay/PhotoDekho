@@ -1,0 +1,7 @@
+.userInput{
+    margin: 10px;
+}
+
+.userInput .favouriteButton {
+    float: right;
+}

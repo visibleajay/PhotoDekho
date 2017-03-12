@@ -1,0 +1,18 @@
+.photo md-card{
+    padding: 2px;
+}
+
+.photo md-card md-icon{
+    left:90%; 
+    bottom:90%;
+    z-index:10; 
+    position:absolute;
+}
+
+.md-disabled {
+    color: lightgrey;
+}
+
+.md-enabled {
+    color: greenyellow;
+}

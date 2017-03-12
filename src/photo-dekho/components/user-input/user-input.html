@@ -1,0 +1,7 @@
+<div class="userInput">
+    <md-input-container>
+        <input mdInput #searchBox placeholder="Enter Search Text" (keyup.enter)="searchTextEntered.emit(searchBox.value)">
+    </md-input-container>
+    <button md-button (click)="searchTextEntered.emit(searchBox.value)">Done</button>
+    <button class="favouriteButton" md-button (click)="updateFavourite.emit()">{{onShowButtonText()}}</button>
+</div>

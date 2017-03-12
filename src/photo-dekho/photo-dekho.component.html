@@ -1,0 +1,4 @@
+<md-toolbar class="mainApp">Photo Dekho</md-toolbar>
+<!--<pd-landing-page></pd-landing-page>-->
+<pd-user-input [favouriteButtonValue]='favourite$ | async'  (searchTextEntered)="photoDekhoActions.fetchImages($event)" (updateFavourite)="photoDekhoActions.updateFavourite()"></pd-user-input>
+<pd-display-photos [imageData]='imageData$ | async' (favouritePhotoClick)="photoDekhoActions.updatePhotoFavourite($event)" ></pd-display-photos>
